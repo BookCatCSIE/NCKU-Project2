@@ -13,6 +13,7 @@ public:
 	explicit GameBoard(QWidget *parent = 0);
 
 private slots:
+	void setup();
 	void finished();
 	void clearAnswer();
     void switchCondition();

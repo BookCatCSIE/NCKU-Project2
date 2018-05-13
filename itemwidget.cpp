@@ -16,6 +16,8 @@ ItemWidget::ItemWidget(qint8 number)
 
 }
 
+ItemWidget::~ItemWidget(){}
+
 void ItemWidget::mousePressEvent(QMouseEvent *ev)
 {
 	Q_UNUSED(ev)
